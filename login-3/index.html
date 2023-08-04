@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Open+Sans:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <main class="container">
+        <div class="container-img">
+            <img src="img/mujer-gato-grande.svg" alt="" />
+        </div>
+        <div class="container-form">
+            <img src="img/mujer-gato-pequeno.svg" alt="" class="img-movil">
+            <form class="form" id="form" autocomplete="off">
+                <h1 class="title">Sign In</h1>
+                <p class="principal error" id="errorPrincipal">Ingresa tu correo y contraseña</p>
+                <div class="form-control mb-16">
+                    <label for="email">Email Address</label>
+                    <div>
+                        <input type="email" id="email" placeholder="Example@rocket.mail" autocomplete="off" />
+                        <i><img src="img/ic_mail.svg" alt=""></i>
+                    </div>
+                    <span class="error" id="errorCorreo">Ingresa el correo</span>
+                </div>
+                <div class="form-control">
+                    <label for="password">Password</label>
+                    <div>
+                        <input type="password" id="password" autocomplete="off" />
+                        <i><img src="img/ic_key.svg" alt=""></i>
+                    </div>
+                    <span class="error" id="errorContrasena">Ingresa la contraseña</span>
+                </div>
+                <p class="forgot-container">
+                    <a class="forgot">Forgot Password?</a>
+                </p>
+                <button type="submit" class="btn-login">Login</button>
+                <p class="sign-up">Are you new here? <a>Sign up</a></p>
+                <p class="linea"><span>Or</span></p>
+                <button type="button" class="sign-in-google">
+                    <img src="img/ic_google.svg" alt="Icono de google"/>
+                    <span>Sign in with Google</span>
+                </button>
+            </form>
+        </div>
+    </main>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Inter";
+    src: url("./fonts/Inter.ttf");
+}
+
+.linea {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.linea::before {
+    border-top: 2px solid rgba(23, 20, 20, 0.38);
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.linea span {
+    background-color: #FFFBFA;
+    padding: 0 15px;
+}
+
+.control {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.control label {
+    font-size: 20px;
+    font-family: 'Inter';
+    color: #524C4CB8;
+    width: 100%;
+}
+
+.control input {
+    font-family: 'Inter';
+    width: 100%;
+    font-size: 16px;
+    color: #524C4C61;
+    padding: 20px;
+    border: 1px solid #524C4C61;
+    border-radius: 10px;
+}

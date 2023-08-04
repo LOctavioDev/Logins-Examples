@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/Logo.svg" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./Styles/style.css">
+
+    <title>Bloopy | Login</title>
+</head>
+<body>
+    <!-- ########### Main Container ########### -->
+    <main class="container">
+        <!-- ------ Image Left Main Container ------ -->
+        <div class="img-container">
+            <!-- Left Header -->
+            <div class="header">
+                <ul>
+                    <li>About Us</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+            <!-- Image -->
+            <!-- <img src="./Images/stars.svg" alt="" class="stars"> -->
+            <img src="./Images/sitting-6.svg" alt="">
+            
+        </div>
+        
+        <!-- ------ Form Right Main Container ------ -->
+        <div class="form-container">
+            <!-- Form Header -->
+            <div class="form-header">
+                <img src="./Images/App Logo Inspiraton 63.svg" alt="Logo">
+                <h1>Bloopy</h1>
+            </div>
+            <form>
+                <!-- Form Header (Logo) -->
+
+                <h2>Create Account</h2>
+                <h2 class="mobile">Sign Up</h2>
+                <!-- Input Name -->
+                <div class="form-control">
+                    <input type="text" placeholder="Full Name">
+                    <img src="./Images/carbon_user-avatar-filled.svg" alt="user" class="left-icon">
+                </div>
+                <!-- Input Email -->
+                <div class="form-control">
+                    <input type="email" placeholder="Email">
+                    <img src="./Images/ic_outline-alternate-email.svg" alt="email" class="left-icon">
+                </div>
+                <!-- Input Passwd -->
+                <div class="form-control mb14">
+                    <input type="password" placeholder="Password" id="contrasena">
+                    <img src="Images/ri_lock-password-fill.svg" alt="" class="left-icon">
+                    <img src="./Images/ant-design_eye-invisible-filled.svg" alt="see password" class="right-icon" id="icono">
+
+                </div>
+                <!-- Input Checkbox -->
+                <div class="checkbox">
+                    <input type="checkbox" id="chck">
+                    <label for="chck">I agree with <a href="">Terms</a> and <a href="">Privacy</a></>
+                </div>
+
+                <div class="btn-container">
+                    <button type="submit">Sign Up</button>
+                    <button type="button">
+                        <i><img src="./Images/ic_google.svg" alt="" style="width: 18px;"></i>
+                        <span>Sing Up with Google</span> 
+                    </button>
+                    <button type="button" class="mb20">
+                        <i><img src="./Images/bi_facebook.svg" alt="" style="width: 18px;"></i>
+                        <span>Sing Up with Facebook</span> 
+                    </button>
+                </div>
+                <p>Already have an account? <a href="">Log In</a></p>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
